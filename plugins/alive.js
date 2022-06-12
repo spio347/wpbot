@@ -31,12 +31,12 @@ Module({
   var buttons = [{
     urlButton: {
         displayText: 'Github',
-        url: 'https://github.com/souravkl11/raganork'
+        url: 'https://github.com/spio347'
     }
 }, {
   urlButton: {
     displayText: 'Contact Owner',
-    url: 'https://wa.me/'+BOT_INFO.split(";")[2]+'?text=Hey+bro'
+    url: 'https://wa.me/905340770299?text=Hey+bro'
     }
 }, {
     quickReplyButton: {
@@ -48,16 +48,11 @@ Module({
         displayText: 'All commands',
         id: 'commands'+myid
     }  
-}, {
-    quickReplyButton: {
-        displayText: 'Support group',
-        id: 'support'+myid
-    }
 }]
 var menu = `╭═══〘 ${BOT_INFO.split(";")[0]} 〙═══⊷❍
 ┃✩╭──────────────
 ┃✩│
-┃✩│ Owner : ${BOT_INFO.split(";")[1]}
+┃✩│ Owner : Spio347
 ┃✩│ User : ${message.senderName}
 ┃✩│ Mode : ${MODE}
 ┃✩│ Server : ${config.HEROKU.APP_NAME}
